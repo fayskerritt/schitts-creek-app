@@ -2,21 +2,25 @@
     {
         "name": "Johnny Rose",
         "description": "Jonathan Michael Rose is a fictional character in the Canadian sitcom Schitt's Creek, which aired on the CBC and Pop TV from 2015 to 2020. His initial stories revolve around his attempts to rebuild his family's fortune and help them adjust to life in Schitt's Creek, a small town he bought as a joke birthday gift for his son, David.",
-        "image_source": "https://upload.wikimedia.org/wikipedia/en/c/cc/Johnny_Rose%2C_Schitt%27s_Creek%2C_Season_2%2C_2016.png"
+        "image_source": "https://upload.wikimedia.org/wikipedia/en/c/cc/Johnny_Rose%2C_Schitt%27s_Creek%2C_Season_2%2C_2016.png",
+        "url": "johnny"
     },
     {
         "name": "Moira Rose",
         "description": "Moira Rose is a fictional character in the Canadian sitcom Schitt's Creek, which aired on CBC and Pop from 2015 to 2020. Moira is introduced as the eccentric former soap opera star wife of Johnny Rose and mother of their adult children, David and Alexis. She is often portrayed as the family member most resistant to life in Schitt's Creek.",
-        "image_source": "https://upload.wikimedia.org/wikipedia/en/b/b1/Catherine_O%27Hara_as_Moira_Rose_in_Schitt%27s_Creek%2C_season_3%2C_episode_1%2C_%22Opening_Night%22.png"
+        "image_source": "https://upload.wikimedia.org/wikipedia/en/b/b1/Catherine_O%27Hara_as_Moira_Rose_in_Schitt%27s_Creek%2C_season_3%2C_episode_1%2C_%22Opening_Night%22.png",
+        "url": "moira"
     },
     {
         "name": "David Rose",
         "description": "David Rose is a fictional character in the Canadian sitcom Schitt's Creek, which aired on the CBC and Pop TV from 2015 to 2020. David, a member of the central Rose family, is introduced as the spoiled adult son of Johnny and Moira Rose, and the older brother of Alexis Rose.",
-        "image_source": "https://upload.wikimedia.org/wikipedia/en/a/a3/David_Rose%2C_Schitt%27s_Creek%2C_Season_3%2C_2017.png"
+        "image_source": "https://upload.wikimedia.org/wikipedia/en/a/a3/David_Rose%2C_Schitt%27s_Creek%2C_Season_3%2C_2017.png",
+        "url": "david"
     },
     {
         "name": "Alexis Rose",
         "description": "Alexis Claire Rose is a fictional character in the Canadian sitcom Schitt's Creek, which aired on CBC and Pop TV from 2015 to 2020. Alexis, a member of the central Rose family, is introduced as the spoiled socialite daughter of Johnny and Moira Rose, and the younger sister of David Rose.",
-        "image_source": "https://upload.wikimedia.org/wikipedia/en/b/be/Alexis_Rose%2C_Schitt%27s_Creek%2C_season_4%2C_2018.png"
+        "image_source": "https://upload.wikimedia.org/wikipedia/en/b/be/Alexis_Rose%2C_Schitt%27s_Creek%2C_season_4%2C_2018.png",
+        "url": "alexis"
     }
 ]
