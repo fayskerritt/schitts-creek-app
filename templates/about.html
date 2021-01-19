@@ -1,0 +1,120 @@
+{% extends "base.html" %}
+{% block content %}
+
+     <h2>{{ page_title }}</h2>
+    <p>
+        Schitt's Creek (styled Schitt$ Creek) is a Canadian television sitcom created by Dan Levy and his father Eugene Levy
+        that aired on CBC Television from January 13, 2015, to April 7, 2020.[1] It consists of 80 episodes spread over six
+        seasons.[2][3] Produced by Not a Real Company Productions[4] and Anonymous Content, the series follows the formerly
+        wealthy Rose family's trials and tribulations. After Rose's business manager embezzles the family business, the
+        family loses their fortune and relocates to Schitt's Creek, a small town they once purchased as a joke.[5] Now
+        living in a motel, Johnny Rose (Eugene Levy) and Moira Rose (Catherine O'Hara)—along with their adult children,
+        David (Dan Levy) and Alexis (Annie Murphy)—must adjust to life without money and with each other.[5]
+    
+        The series conception came from Dan Levy, who wondered how wealthy families, as frequently depicted on American
+        reality television, would react if they were to lose all their money.[6] He further developed the series with his
+        father, Eugene, before pitching the series to several Canadian and American networks. The series was first sold to
+        CBC Television in Canada and secured final funding to be able to start production in its sale to Pop TV in the
+        United States, where it debuted on February 11, 2015.[7] Although limited in popularity throughout its first few
+        seasons, the series' appearance on Netflix after its third season is credited for the show's sudden rise in stature,
+        attributed to the "Netflix bump" and a dynamic social media presence.[8]
+    
+        Schitt's Creek received critical acclaim and garnered a cult following, particularly for its writing, humour and
+        acting. The series has won various accolades, including two ACTRA Awards and 18 Canadian Screen Awards.[9][10] It is
+        the first Canadian comedy series to be nominated for a Critics' Choice Television Award for Best Comedy Series.[11]
+        It also received two Screen Actors Guild Award nominations, including Outstanding Performance by an Ensemble in a
+        Comedy Series and a total of 19 Primetime Emmy Award nominations, including Outstanding Comedy Series
+        twice.[12][13][14] The show received 15 of these nominations for its sixth and final season, setting a record for
+        most Emmy nominations for a comedy series' final season.[14] For its portrayal of LGBTQ+ people, the series was
+        nominated twice for a GLAAD Media Award for Outstanding Comedy Series, winning once.[15]
+    
+        At the 72nd Primetime Emmy Awards, the series' final season swept all seven major comedy awards (the first time for
+        a comedy or drama series)—Outstanding Comedy Series, Outstanding Writing and Outstanding Directing for Dan Levy (the
+        last shared with Andrew Cividino), and setting a record for winning all four major acting categories (Lead
+        Actor/Actress and Supporting Actor/Actress) for O'Hara, Murphy and both Levys.[16] At the same time, the series set
+        a new record for most Emmy wins by a comedy series in a single season, beating The Marvelous Mrs. Maisel's 2018
+        record.
+    </p>
+
+    <h2>Characters</h2>
+
+    {% for member in company %}
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h3>{{ member.name }}</h3>
+                <p>{{ member.description }}</p>
+            </div>
+            <div class="col-md-5">
+                <img src="{{ member.image_source }}" alt="" class="featurette-image image-responsive">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+    {% endfor %}
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h3>Johnny Rose</h3>
+            <p>
+                Jonathan Michael Rose[1] is a fictional character in the Canadian sitcom Schitt's Creek, which aired on the CBC and
+                Pop TV from 2015 to 2020. Johnny is introduced as the patriarch of the central Rose family and the former CEO of
+                Rose Video, a video rental chain. His initial stories revolve around his attempts to rebuild his family's fortune
+                and help them adjust to life in Schitt's Creek, a small town he bought as a joke birthday gift for his son, David,
+                in 1991. In later seasons, Johnny's stories focus on his work as co-manager of the Rosebud Motel and his
+                relationship with his family.
+            </p>
+        </div>
+        <div class="col-md-5">
+            <img src="https://upload.wikimedia.org/wikipedia/en/c/cc/Johnny_Rose%2C_Schitt%27s_Creek%2C_Season_2%2C_2016.png" alt="Johnny Rose, Schitt's Creek, Season 2, 2016.png">
+        </div>
+    </div>
+    <div class="row featurette">
+        <div class="col-md-5">
+            <img src="https://upload.wikimedia.org/wikipedia/en/b/b1/Catherine_O%27Hara_as_Moira_Rose_in_Schitt%27s_Creek%2C_season_3%2C_episode_1%2C_%22Opening_Night%22.png" alt="Catherine O'Hara as Moira Rose in Schitt's Creek, season 3, episode 1, &quot;Opening Night&quot;.png">
+        </div>
+        <div class="col-md-7">
+            <h3>Moira Rose</h3>
+            <p>
+                Moira Rose[1] is a fictional character in the Canadian sitcom Schitt's Creek, which aired on CBC and Pop from 2015
+                to 2020. Moira is introduced as the eccentric former soap opera star wife of Johnny Rose and mother of their adult
+                children, David and Alexis. She is often portrayed as the family member most resistant to life in Schitt's Creek –
+                viewing their loss of fortune as temporary. In later seasons, Moira's story becomes more community-oriented as she
+                forms closer relationships with the townspeople.
+            </p>
+        </div>
+    </div>
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h3>David Rose</h3>
+            <p>
+                David Rose[1] is a fictional character in the Canadian sitcom Schitt's Creek, which aired on the CBC and Pop TV from
+                2015 to 2020. David, a member of the central Rose family, is introduced as the spoiled adult son of Johnny and Moira
+                Rose, and the older brother of Alexis Rose. His initial stories revolve around his attempts to adjust to the
+                family's sudden loss of wealth and subsequent banishment to Schitt's Creek, a small town his father purchased as a
+                joke for his birthday years earlier. As the series progresses, David's story focuses on his small business, Rose
+                Apothecary, and his romantic relationship with Patrick Brewer.
+            </p>
+        </div>
+        <div class="col-md-5">
+            <img src="https://upload.wikimedia.org/wikipedia/en/a/a3/David_Rose%2C_Schitt%27s_Creek%2C_Season_3%2C_2017.png" alt="David Rose, Schitt's Creek, Season 3, 2017">
+        </div>
+    </div>
+    <div class="row featurette">
+        <div class="col-md-5">
+            <img src="https://upload.wikimedia.org/wikipedia/en/b/be/Alexis_Rose%2C_Schitt%27s_Creek%2C_season_4%2C_2018.png" alt="Alexis Rose, Schitt's Creek, season 4, 2018.png">
+        </div>
+        <div class="col-md-7">
+            <h3>Alexis Rose</h3>
+            <p>
+                Alexis Claire Rose[1][2] is a fictional character in the Canadian sitcom Schitt's Creek, which aired on CBC and Pop
+                TV from 2015 to 2020. Alexis, a member of the central Rose family, is introduced as the spoiled socialite daughter
+                of Johnny and Moira Rose, and the younger sister of David Rose. Her early stories revolve around her efforts to
+                adjust to life in Schitt's Creek after her family loses their fortune, as well as her romantic entanglements with
+                locals Mutt Schitt and Ted Mullens. In later seasons, Alexis's story focuses on her educational pursuits and the
+                establishment of her public relations business, Alexis Rose Communications.
+            </p>
+            
+        </div>
+    </div>
+{% endblock %}
